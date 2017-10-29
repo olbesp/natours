@@ -1,0 +1,22 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "Landing page for natours",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olbesp/natours.git"
+  },
+  "author": "olbesp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olbesp/natours/issues"
+  },
+  "homepage": "https://github.com/olbesp/natours#readme",
+  "devDependencies": {
+    "node-sass": "^4.5.3"
+  }
+}
