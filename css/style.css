@@ -214,9 +214,9 @@ body {
   perspective: 120rem;
   -moz-perspective: 120rem;
   position: relative;
-  height: 50rem; }
+  height: 52em; }
   .card__side {
-    height: 50rem;
+    height: 52rem;
     transition: all .8s ease;
     position: absolute;
     top: 0;
@@ -264,6 +264,19 @@ body {
     box-decoration-break: clone; }
     .card__heading-span--1 {
       background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.85), rgba(255, 119, 48, 0.85)); }
+  .card__details {
+    padding: 3rem;
+    width: 80%;
+    margin: 0 auto; }
+    .card__details ul {
+      list-style: none;
+      height: 100%; }
+      .card__details ul li {
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 1rem; }
+        .card__details ul li:not(:last-child) {
+          border-bottom: 1px solid #eee; }
 
 .row {
   max-width: 114rem;
