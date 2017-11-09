@@ -10,6 +10,7 @@ body {
   margin-bottom: 6rem;
   color: $color-white;
   text-transform: uppercase;
+  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 
   &--main {
