@@ -38,11 +38,12 @@
     }
 
     &__img-container {
+      width: 100%;
+      overflow: hidden;
 
       @include respond(tab-land) {
-        overflow: hidden;
         width: 50%;
-        height: 20%;
+        overflow: hidden;
       }
     }
   }
@@ -61,13 +62,11 @@
   }
 
   &__img {
-    display: block;
     width: 100%;
+    transform: scale(1.5);
 
     @include respond(tab-land) {
-
-      // min-width: 100%;
-      height: auto;
+      transform: scale(1.2);
     }
   }
 
@@ -90,6 +89,11 @@
 
     @include respond(tab-land) {
       text-align: left;
+    }
+
+    @include respond(phone) {
+      -moz-column-count: 1;
+      column-count: 1;
     }
   }
 
