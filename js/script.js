@@ -4,6 +4,8 @@ $(document).ready(function() {
   var menuItemsList = document.querySelectorAll('.navigation__link');
   var sectionList = document.querySelectorAll('section');
 
+  document.querySelector('#header-btn').addEventListener('click', scroll);
+
   for (var i = 0; i < menuItemsList.length; i++) {
     menuItemsList[i].addEventListener('click', scroll);
   }
